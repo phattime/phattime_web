@@ -1,0 +1,328 @@
+
+/* -----------------------------
+         COLOR GUIDE
+Light Slate: #98A9CC
+Dark Slate: #596F99
+Light BLue: #B9F5FF
+Neutral: #FFE7DD
+Mauve: #CCA7A0
+
+--------------------------------*/
+/* -----------------------------
+         GLOBAL STYLES
+--------------------------------*/
+
+body{
+    font-size: 19px;
+    font-family: calibri, candara, "segoe ui", Optima, Arial, sans-serif;
+    color: #FFE7DD;
+    background: black url("../images/lighterBG.jpg") repeat;
+    background-size: cover;
+    padding: 2% 6% 6% 6%;
+}
+
+@media screen and (min-width: 767px){
+    body{
+        font-size: 1.4em;
+    }
+}
+
+.container{
+    background: rgb(15,15,15); /* IE 8 */
+    background: rgba(15,15,15, 0.74);
+    padding: 30px;
+}
+
+
+
+h1, h2, h3{
+    font-family: Garamond, "Baskerville Old Face", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.3684em;
+    line-height: 1.2656em;
+    margin-top: 0.4219em;
+    margin-bottom: 0;
+    color: #ff9900;
+}
+h2{
+    font-size: 1.5em;
+    line-height: 1.2558em;
+    margin: 0.4219em auto 0.4219em auto;
+}
+h3{
+    font-size: 1.5263em;
+    font-weight: normal;
+    line-height: 1.8621em;
+    margin-top: 0.9310em;
+    margin-bottom:0;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4211em;
+    margin-top: 1.4211em;
+    margin-bottom:0;
+    font-weight: 100;
+    max-width: 700px;
+}
+li {
+    font-weight: 100;
+}
+img{
+    width:100%;
+}
+a:link{
+    color: #596F99;
+}
+
+    a:visited{
+        color: #1c3499
+    }
+    a:hover{
+        color: #6d8a99;
+    }
+    a:active{
+        color: #99b1ed;
+    }
+
+.button {
+    background: #596F99;
+    border-radius: 8px;
+    max-width: 250px;
+}
+    .button a{
+        color: #98A9CC;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+    }
+    .button a:hover{
+        background: #415099;
+        border-radius: 8px;
+    }
+
+.featured-info h3{
+    border-bottom: 1px solid #6d8a99;
+}
+.featured-info p{
+    font-style: italic;
+}
+.featured-info ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/* media queries for featured-info*/
+@media screen and (min-width: 1050px){
+    .featured-info{
+        float: left;
+        width: 30%;
+        margin-left: 3%;
+    }
+}
+
+/* */
+.gallery{
+    margin-top: 30px;
+}
+
+
+/* Media Query for gallery*/
+
+@media screen and (min-width: 600px){
+
+    .gallery{
+        width: 446px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .gallery img{
+            max-width: 220px;
+        }
+}
+
+@media screen and (min-width: 1050px){
+    .gallery{
+        width: 567px;
+    }
+    .gallery img{
+        max-width: 280px;
+    }
+}
+
+/* end media query */
+
+@media screen and (min-width: 767px){
+    .landing{
+        text-align: center;
+    }
+    
+        .landing p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+/* -----------------------------
+         LOGO STYLES
+--------------------------------*/
+
+.logo{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+    .logo img{
+        width: 150px;
+    }
+
+/* -----------------------------
+      MAIN NAVIGATION STYLES
+--------------------------------*/
+
+.main-navigation ul{
+    padding-left: 0;
+}
+
+.main-navigation li{
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+.main-navigation a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(67,67,67, 0.17);
+    color: rgb(180,180,180);
+}
+
+    .main-navigation a:visited{
+        color: rgb(106,106,106);
+    }
+    .main-navigation a:hover{
+        color: rgb(255,255,255);
+        background: rgba(62, 62, 62, 0.52);
+        transition: .5s color;
+    }
+    .main-navigation a:active {
+        color: #98A9CC;
+    }
+/* Media Queries*/
+
+@media screen and (min-width: 767px){
+
+    .main-navigation {
+        min-height: 95px;
+        border-top: 1px solid rgb(36,36,36);
+        border-bottom: 1px solid rgb(36,36,36);
+    }
+
+    .main-navigation ul{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .main-navigation li{
+        float: left;
+        margin-left: 20px;
+        width: 20%;
+    }
+    .main-navigation a {
+        background: none;
+    }
+    .main-navigation a:hover{
+        background: none;
+    }
+} /* Close Media Query for min 767px*/
+
+@media screen and (min-width: 880px){
+    .main-navigation ul {
+        position: relative;
+        right: -20px;
+    }
+}
+
+/* -----------------------------
+         HOME PAGE STYLES
+--------------------------------*/
+.main-page .container{
+    overflow: auto;
+}
+
+
+/* -----------------------------
+         MENU PAGE STYLES
+--------------------------------*/
+.menu-page .featured-info ul{
+    font-style: italic;
+}
+
+.menu-page .featured-info {
+    float: none;
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* -----------------------------
+       LOCATION PAGE STYLES
+--------------------------------*/
+
+@media screen and (min-width: 1050px) {
+
+    .location-page .featured-info{
+        float:none;
+        width: 100%
+
+    }
+    .location-page .container{
+        overflow: auto;
+    }
+    .location-page .landing{
+        float: left;
+        text-align: left;
+        width: 56%;
+
+    }
+    .location-page .sidebar{
+        float:right;
+        width: 30%;
+    }
+
+}
+
+/* -----------------------------
+         GLOBAL FOOTER STYLES
+--------------------------------*/
+
+footer{
+    padding: 10px 0;
+    clear: both;
+}
+    footer h4{
+        text-transform: uppercase;
+    }
+    footer p{
+        margin:0;
+    }
+
+    footer a:link{
+        color: #596F99;
+    }
+
+        footer a:visited{
+            color: #9fbcbc
+        }
+        footer a:hover{
+            color: #6d8a99;
+        }
+        footer a:active{
+            color: #99b1ed;
+        }

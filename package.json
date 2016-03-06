@@ -4,7 +4,7 @@
   "description": "The website for PhatTime: The Learning Network",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "md css\\vendor && copy node_modules\\normalize.css\\normalize.css css\\vendor"
+    "postinstall": "build\\copyVendorFiles.bat"
   },
   "repository": {
     "type": "git",

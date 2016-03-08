@@ -3,9 +3,8 @@
          COLOR GUIDE
 Light Slate: #98A9CC
 Dark Slate: #596F99
-Light BLue: #B9F5FF
-Neutral: #FFE7DD
-Mauve: #CCA7A0
+Logo Orange: #ff9900
+Logo Blue: #003399
 
 --------------------------------*/
 /* -----------------------------
@@ -16,7 +15,7 @@ body{
     font-size: 19px;
     font-family: calibri, candara, "segoe ui", Optima, Arial, sans-serif;
     color: #FFE7DD;
-    background: black url("../images/lighterBG.jpg") repeat;
+    background: grey;
     background-size: cover;
     padding: 2% 6% 6% 6%;
 }
@@ -89,7 +88,7 @@ a:link{
     }
 
 .button {
-    background: #596F99;
+    background: #003399;
     border-radius: 8px;
     max-width: 250px;
 }
@@ -108,7 +107,7 @@ a:link{
     }
 
 .featured-info h3{
-    border-bottom: 1px solid #6d8a99;
+    border-bottom: 1px solid #003399;
 }
 .featured-info p{
     font-style: italic;
@@ -303,6 +302,7 @@ a:link{
 --------------------------------*/
 
 footer{
+    font-size: 0.8em;
     padding: 10px 0;
     clear: both;
 }
@@ -314,15 +314,15 @@ footer{
     }
 
     footer a:link{
-        color: #596F99;
+        color: #4d4d4d;
     }
 
         footer a:visited{
-            color: #9fbcbc
+            color: #4d4d4d;
         }
         footer a:hover{
-            color: #6d8a99;
+            color: #4d4d4d;
         }
         footer a:active{
-            color: #99b1ed;
+            color: #4d4d4d;
         }

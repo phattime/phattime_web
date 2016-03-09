@@ -15,7 +15,7 @@ body{
     font-size: 19px;
     font-family: calibri, candara, "segoe ui", Optima, Arial, sans-serif;
     color: #FFE7DD;
-    background: grey;
+    background: grey url("../images/buildings.jpg") repeat;
     background-size: cover;
     padding: 2% 6% 6% 6%;
 }
@@ -106,7 +106,17 @@ a:link{
         background: #415099;
         border-radius: 8px;
     }
-
+.button.donate {
+    background: #00b300;
+    border-radius: 8px;
+    max-width: 250px;
+}
+    .button.donate a{
+        color: white;
+    }
+    .button.donate a:hover{
+        background:#008000;
+    }
 .featured-info h3{
     border-bottom: 1px solid #003399;
 }
@@ -315,15 +325,15 @@ footer{
     }
 
     footer a:link{
-        color: #4d4d4d;
+        color: #cccccc;
     }
 
         footer a:visited{
-            color: #4d4d4d;
+            color: #cccccc;
         }
         footer a:hover{
-            color: #4d4d4d;
+            color: #cccccc;
         }
         footer a:active{
-            color: #4d4d4d;
+            color: #cccccc;
         }

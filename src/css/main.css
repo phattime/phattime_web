@@ -3,8 +3,8 @@
          COLOR GUIDE
 Light Slate: #98A9CC
 Dark Slate: #596F99
-Logo Orange: #ff9900
-Logo Blue: #003399
+Logo Orange: #f26722
+Logo Blue: #333366
 
 --------------------------------*/
 /* -----------------------------
@@ -35,8 +35,9 @@ body{
 
 
 h1, h2, h3{
-    font-family: Garamond, "Baskerville Old Face", "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-variant: small-caps;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h1 {
     line-height: 1.2656em;
     margin-top: 0.4219em;
     margin-bottom: 0;
-    color: #ff9900;
+    color: #f26722;
 }
 h2{
     font-size: 1.5em;
@@ -88,7 +89,7 @@ a:link{
     }
 
 .button {
-    background: #003399;
+    background: #333366;
     border-radius: 8px;
     max-width: 250px;
 }
@@ -173,12 +174,12 @@ a:link{
 
 .logo{
     display: block;
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
 }
 
     .logo img{
-        width: 150px;
+        width: 250px;
     }
 
 /* -----------------------------

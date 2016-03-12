@@ -33,6 +33,13 @@ body{
 }
 
 
+.newsletter{
+    width: 75%;
+    color: black;
+    background: rgba(95, 40, 15, 0.1);
+    padding: 30px;
+}
+
 
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;

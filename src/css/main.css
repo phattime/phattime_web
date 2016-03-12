@@ -34,17 +34,36 @@ body{
 
 
 .newsletter{
-    width: 80%;
-    color: black;
-    padding-top: 20px;
-    margin: auto;
-}
-#email{
-    width: 500px;
-}
-#submit{
-    background: #00b300;
-}
+        text-align: left;
+        width: 50%;
+        color: white;
+        padding-top: 20px;
+        margin: auto;
+    }
+    
+    #email{
+        color: black;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #submit{
+        background: #f26722;
+        color: white;
+        width: 100%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
+
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -130,6 +149,7 @@ a:link{
     }
 .featured-info h3{
     border-bottom: 1px solid #003399;
+    text-align: center;
 }
 .featured-info p{
     font-style: italic;
@@ -138,7 +158,38 @@ a:link{
     list-style: none;
     padding-left: 0;
 }
+/* media query for email form */
 
+@media screen and (min-width: 1050px){
+    .newsletter{
+        text-align: left;
+        width: 80%;
+        color: white;
+        padding-top: 20px;
+        margin: auto;
+    }
+    
+    #email{
+        color: black;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #submit{
+        background: #f26722;
+        color: white;
+        width: 100%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+ }
 /* media queries for featured-info*/
 @media screen and (min-width: 1050px){
     .featured-info{

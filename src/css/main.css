@@ -11,6 +11,11 @@ Logo Blue: #333366
          GLOBAL STYLES
 --------------------------------*/
 
+header p{
+    font-size: 26px;
+    text-align: center;
+}
+
 body{
     font-size: 19px;
     font-family: calibri, candara, "segoe ui", Optima, Arial, sans-serif;
@@ -258,13 +263,10 @@ a:link{
 
 .logo{
     display: block;
-    width: 250px;
     margin: 0 auto;
 }
 
-    .logo img{
-        width: 250px;
-    }
+
 
 /* -----------------------------
       MAIN NAVIGATION STYLES

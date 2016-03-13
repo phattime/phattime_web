@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>PhatTime: Home</title>
 
-
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
+
 <body class="main-page">
 
-<div class="container">
-    <header>
-        <a href="index.html" class="logo"><img src="images/PT_Logo.png" alt="PhatTime Logo"> </a>
-        <nav class="main-navigation">
-            <ul>
-                
-                <li><a href="about.html">About Us</a> </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="landing">
-        <div class="newsletter">
-            <img class="ctaSplash" src="./images/splash.png">
-            <p>Every month brings something new...</p>
-            <p>Stay up to date withthe PhatTime newsletter...</p>
-            <form action="api/MailingList" method="POST">
-                <label id="emailLabel" for="email">Email:</label>
-                <input name="email" id="email" />
-                <input type="checkbox" name="mailer" value="Student"> Student
-                <input type="checkbox" name="mailer" value="Mentor"> Mentor
-                <input type="checkbox" name="mailer" value="Donor"> Donor
-                <input type="submit" value="Subscribe to our newsletter!" id="submit" />
-                
-            </form>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo"><img src="images/PT_Logo.png" alt="PhatTime Logo"></a>
+            <p>The Learning Network</p>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="about.html">About Us</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="landing">
+            <div class="newsletter">
+                <img class="ctaSplash" src="./images/splash.png">
+                <p>Training new technical entrepreneurs in our communities.</p>
+                <p>Get involved and learn more.
+                    <br> Sign up to be notified about events for you to learn or opportunities for you to help!</p>
+                <form action="api/MailingList" method="POST">
+                    <label id="emailLabel" for="email">Email:</label>
+                    <input name="email" id="email" />
+                    <input type="checkbox" name="mailer" value="Student"> Student
+                    <input type="checkbox" name="mailer" value="Mentor"> Mentor
+                    <input type="checkbox" name="mailer" value="Donor"> Donor
+                    <input type="submit" value="Subscribe to our newsletter!" id="submit" />
+                </form>
+            </div>
         </div>
+
+        <!-- Lead -->
+        <div class="landing">
+            <h1>PhatTime</h1>
+            <h2>Bringing the code to you</h2>
+
+            <p>PhatTime, Inc. is a 501(c)(3) </p>
+        </div>
+
+        <!-- about: short description -->
+        <div class="featured-info">
+            <h3>501(c)(3)</h3>
+            <p>PhatTime is a 501(c)(3) non-profit organization committed to bringing computer literacy to all.  With a focus on those for whom, through no fault of their own, lack the resources to learn and use computer technology to enrich their lives.  Your monies go directly towards training our community schools, churches and individuals most in need.</p>
+
+            <p class="button"><a href="http://www.phattime.com/about_phattime.aspx">About Us</a> </p>
+        </div>
+
+        <!-- donate: short description -->
+        <div class="featured-info">
+            <h3>Donate</h3>
+            <p>You can help form computer clubs to promote the use of computers within minority communities.<br>
+            You can provide our students with tutoring services.<br><br>Click the Donate button!</p>
+
+            <p class="button donate"><a href="http://www.phattime.com/donate.html">Donate Now!</a> </p>
+        </div>
+
+        <!-- portal: short description -->
+        <div class="featured-info">
+            <h3>Portal</h3>
+            <p>Students: Login to the PhatTime Learning Portal here. </p>
+
+            <p class="button"><a href="http://www.phattime.com">Portal</a> </p>
+        </div>
+
     </div>
-
-    <!-- Lead -->
-    <div class="landing">
-        <h1>PhatTime</h1>
-        <h2>Bringing the code to you</h2>
-        
-        <p>PhatTime is a place for people of all backgrounds to learn how to program. We offer tutoring, mentorship and special classes at any venue. </p>
-    </div>
-
-<!-- about: short description -->
-    <div class="featured-info">
-        <h3>501(c)(3)</h3>
-        <p>PhatTime is a 501(c)(3) non-profit organization looking to bring programming literacy to underprivledged youth.</p>
-
-        <p class="button"><a href="about.html">About Us</a> </p>
-    </div>
-
-    <!-- focus: short description -->
-    <div class="featured-info">
-        <h3>Focus</h3>
-        <p>PhatTime focuses on making students comfortable with current traneds in computer science and technology. </p>
-
-        <p class="button"><a href="focus.html">More</a> </p>
-    </div>
-
-    <!-- donate: short description -->
-    <div class="featured-info">
-        <h3>Donate</h3>
-        <p>Your donations matter! Help us reach those who can't afford to seek out this kind of education on their own. Any amount appreciated. </p>
-
-        
-
-        <p class="button donate"><a href="donate.html">Donate Now!</a> </p>
-    </div>
-
-
-</div>
-<footer>
+    <footer>
         <p><a href="http://owlephantdesignstudio.com/wp">Copyright Owlephant Design Studio 2016</a></p>
-</footer>
+    </footer>
 </body>
+
 </html>

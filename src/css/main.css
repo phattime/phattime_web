@@ -241,21 +241,21 @@ a:link{
 @media screen and (min-width: 600px){
 
     .gallery{
-        width: 446px;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
         .gallery img{
-            max-width: 220px;
+            max-width: 80%;
         }
 }
 
-@media screen and (min-width: 1050px){
+@media screen and (min-width: 1200px){
     .gallery{
-        width: 567px;
+        width: 980px;
     }
     .gallery img{
-        max-width: 280px;
+        max-width: 460px;
     }
 }
 

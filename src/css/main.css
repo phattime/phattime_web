@@ -26,10 +26,21 @@ body{
     background-size: cover;
     padding: 2% 6% 6% 6%;
 }
+.banner {
+    background: url(../images/splash-sm.jpg) no-repeat;
+    width: 300px; /* Width of new image */
+    height: 300px; /* Height of new image */
+    margin: auto;
+}
 
 @media screen and (min-width: 767px){
     body{
         font-size: 1.4em;
+    }
+    .banner {
+        background: url(../images/splash.jpg) no-repeat;
+        width: 100%;
+        
     }
 }
 

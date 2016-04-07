@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PhatTime: Home</title>
+
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/mainB.css" rel="stylesheet" type="text/css">
+    
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo image needs work
+                    
+                <img alt="Logo" src="images/PT_Logo.png">
+                
+                -->
+                <span class="LogoFront">Phat</span><span class="LogoBack">Time</span>
+            </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="aboutB.html">About <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Donate</a></li>
+                
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Portal</a></li>
+                
+            </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- Page Content --> 
+    <div class="container">
+        <div class="jumbotron">
+          <div class="row">
+                <div class="col-xs-12 ">
+                    <img src="images/splash-sm.jpg" class="visible-xs-inline"/>
+                    <img src="images/splash.jpg" class="hidden-xs"/>
+                    <p>Training new technical entrepreneurs in our communities.</p>
+                    <p>Get involved and learn more.
+                    <br> Sign up to be notified about events for you to learn or opportunities for you to help!</p>
+                    <form action="api/MailingList" method="POST">
+                        <label id="emailLabel" for="email">Email:</label>
+                        <input name="email" id="email" />
+                        <div class="row">
+                            <div class="col-xs-4 leftCheck">
+                                <label class="checkbox-inline"><input type="checkbox" name="mailer" value="Student"> Student</label>
+                            </div>
+                            <div class="col-xs-4 centerCheck">
+                                <label class="checkbox-inline"><input type="checkbox" name="mailer" value="Mentor"> Mentor</label>
+                            </div>
+                            <div class="col-xs-4 rightCheck">
+                                <label class="checkbox-inline"><input type="checkbox" name="mailer" value="Donor"> Donor</label>
+                            </div>
+                        </div>
+                        <input type="submit" value="Subscribe to our newsletter!" id="submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="landing">
+                    <h1>PhatTime</h1>
+                    <h2>Bringing the code to you</h2>
+
+                    <p>PhatTime, Inc. is a 501(c)(3) </p>
+                </div>
+            </div>
+        </div>
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div> 
+                        <h3>501(c)(3)</h3>
+                        <p>PhatTime is a 501(c)(3) non-profit organization committed to bringing computer literacy to all. With a focus
+                            on those for whom, through no fault of their own, lack the resources to learn and use computer technology
+                            to enrich their lives. Your monies go directly towards training our community schools, churches and individuals
+                            most in need.</p>
+
+                        <a class="btn btn-info" href="http://www.phattime.com/about_phattime.aspx" role="button">About Us</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div>
+                        <h3>Donate</h3>
+                        <p>You can help form computer clubs to promote the use of computers within minority communities.
+                            <br> You can provide our students with tutoring services.
+                            <br>
+                            <br>Click the Donate button!</p>
+
+                        <a class="btn btn-success" href="http://www.phattime.com/donate.html" role="button">Donate Now!</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div>
+                        <h3>Portal</h3>
+                        <p>Students: Login to the PhatTime Learning Portal here. </p>
+
+                        <a class="btn btn-warning" href="http://www.phattime.com" role="button">Portal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end page content -->
+    <div class="container">
+        <footer>
+            <p><a href="http://owlephantdesignstudio.com/wp">Copyright Owlephant Design Studio 2016</a></p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.12.2.min.js" ></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+    
+</body>
+</html>

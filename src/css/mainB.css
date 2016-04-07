@@ -1,0 +1,92 @@
+/* -----------------------------
+         COLOR GUIDE
+Light Slate: #98A9CC
+Dark Slate: #596F99
+Logo Orange: #f26722
+Logo Blue: #333366
+
+--------------------------------*/
+body{
+    background-color: #ceccce;
+}
+
+.navbar-default{
+    background-color: #ddd;
+}
+
+.LogoFront{
+    color: #f26722;
+    font-variant: small-caps;
+}
+.LogoBack{
+    color: #333366;
+    font-variant: small-caps;
+}
+
+
+img {
+    max-width:100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter{
+        text-align: left;
+        width: 80%;
+        color: white;
+        padding-top: 20px;
+        margin: auto;
+    }
+    
+    #email{
+        color: black;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #submit{
+        background: #f26722;
+        color: white;
+        width: 100%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .leftCheck{
+        text-align: right;
+    }
+    .centerCheck{
+        text-align: center;
+    }
+    .rightCheck{
+        text-align: left;
+    }
+    
+    .landing{
+        text-align: center;
+    } 
+    
+    
+   footer {
+       margin-top: 20px;
+       font-size: .8em;
+   }
+    footer a:link{
+        color: #596F99;
+    }
+        footer a:visited{
+            color: #596F99;
+        }
+        footer a:hover{
+            color: #596F99;
+        }
+        footer a:active{
+            color: #596F99;
+        }

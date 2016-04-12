@@ -2,45 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>PhatTime: About</title>
+  <meta charset="UTF-8">
+  <title>PhatTime: About</title>
 
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="about-page">
-    <div class="container">
-        <header>
-            <a href="index.html"><img src="images/PT_Logo.png" alt="PhatTime Logo" class="logo"></a>
-            <p>The Learning Network</p>
-            <nav class="main-navigation">
-                <ul>
-                    <li><a href="about.html">About Us</a> </li>
-                    <li><a href="about.html">About Us</a> </li>
-                    <li><a href="about.html">About Us</a> </li>
-                </ul>
-            </nav>
-            <div class="dropdown">
-                <button class="dropbtn">Menu</button>
-                <div class="dropdown-content">
-                    <a href="about.html">About Us</a>
-                    <a href="about.html">About Us</a>
-                    <a href="about.html">About Us</a>
-                </div>
-            </div>
-        </header>>
-        <div class="landing">
-            <div class="gallery"><img src="images/g1.jpg" alt="group image one"><img src="images/g2.jpg" alt="group image two"></div>
+<body>
+  <header>
+    <!-- Navbar -->
 
-            <h2>About Us</h2>
-            <p>Using the most relevant technology stacks, we teach today's youth how to use the web to its fullest potential.</p>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+
+            <span class="LogoFront">Phat</span><span class="LogoBack">Time</span>
+          </a>
         </div>
-        <footer>
-            <p><a href="http://owlephantdesignstudio.com/wp">Copyright Owlephant Design Studio 2016</a></p>
-        </footer>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
+            <li><a href="http://portal.phattime.com/donate.html">Donate</a></li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://portal.phattime.com">Portal</a></li>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </header>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-xs-12 ">
+          <p class="text-center"><span class="heroLogoFront">Phat</span><span class="heroLogoBack">Time</span>
+            <br> The Learning Network</p>
+          <img src="images/hero.png" />
+          <h2>Our mission</h2>
+          <ul>
+            <li>Encouraging students to use computers to develop entrepreneurial skills</li>
+            <li>To provide technical courses for literacy and job preparedness</li>
+            <li>To partner with technology companies to further student awareness</li> 
+            <li>To partner with colleges, high schools, grammar schools, and community centers</li>
+          </ul>
+          <h2>PhatTime focuses on</h2>
+          <ul>
+            <li>Hands-on learning of modern technology</li>
+            <li>Leading the 21st century's "digital native" to promising careers in technology</li>
+          </ul>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/I4eIjuC9kG4" frameborder="0" allowfullscreen></iframe>         
+        </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="landing">
+          <h1>PhatTime, Inc.</h1>
+          <h2>is a 501(c)(3) non-profit organization</h2>
+        </div>
+      </div>
+    </div>
+
+  <!-- end page content -->
+  <div class="container">
+    <footer>
+      <p><a href="http://owlephantdesignstudio.com/wp">Copyright Owlephant Design Studio 2016</a></p>
+    </footer>
+  </div>
+  <script type="text/javascript" src="scripts/jquery-1.12.2.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
